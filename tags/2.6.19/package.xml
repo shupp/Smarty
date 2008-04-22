@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.0RC2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Smarty</name>
+ <channel>pear.merchbox.com</channel>
+ <summary>The PHP compiling template engine</summary>
+ <description>This is a PEAR packaged version of Smarty. You can learn more about Smarty at http://smarty.php.net.</description>
+ <lead>
+  <name>Bill Shupp</name>
+  <user>shupp</user>
+  <email>hostmaster@shupp.org</email>
+  <active>yes</active>
+ </lead>
+ <date>2008-04-21</date>
+ <version>
+  <release>2.6.19</release>
+  <api>2.6.19</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://www.gnu.org/copyleft/lesser.html">LGPL</license>
+ <notes>2.6.19</notes>
+ <contents>
+  <dir name="/">
+    <file baseinstalldir="HTML/Template" name="Smarty/Config_File.class.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/debug.tpl" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.assemble_plugin_filepath.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.assign_smarty_interface.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.create_dir_structure.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.display_debug_console.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.get_include_path.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.get_microtime.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.get_php_resource.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.is_secure.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.is_trusted.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.load_plugins.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.load_resource_plugin.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.process_cached_inserts.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.process_compiled_include.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.read_cache_file.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.rm_auto.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.rmdir.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.run_insert_handler.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.smarty_include_php.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.write_cache_file.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.write_compiled_include.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.write_compiled_resource.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/internals/core.write_file.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/block.textformat.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/compiler.assign.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.assign_debug_info.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.config_load.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.counter.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.cycle.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.debug.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.eval.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.fetch.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.html_checkboxes.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.html_image.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.html_options.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.html_radios.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.html_select_date.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.html_select_time.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.html_table.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.mailto.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.math.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.popup.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/function.popup_init.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.capitalize.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.cat.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.count_characters.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.count_paragraphs.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.count_sentences.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.count_words.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.date_format.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.debug_print_var.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.default.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.escape.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.indent.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.lower.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.nl2br.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.regex_replace.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.replace.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.spacify.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.string_format.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.strip.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.strip_tags.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.truncate.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.upper.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/modifier.wordwrap.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/outputfilter.trimwhitespace.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/shared.escape_special_chars.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/plugins/shared.make_timestamp.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/Smarty.class.php" role="php" />
+    <file baseinstalldir="HTML/Template" name="Smarty/Smarty_Compiler.class.php" role="php" />
+    <file baseinstalldir="/" name="docs/BUGS" role="doc" />
+    <file baseinstalldir="/" name="docs/ChangeLog" role="doc" />
+    <file baseinstalldir="/" name="docs/COPYING.lib" role="doc" />
+    <file baseinstalldir="/" name="docs/FAQ" role="doc" />
+    <file baseinstalldir="/" name="docs/INSTALL" role="doc" />
+    <file baseinstalldir="/" name="docs/NEWS" role="doc" />
+    <file baseinstalldir="/" name="docs/QUICK_START" role="doc" />
+    <file baseinstalldir="/" name="docs/README" role="doc" />
+    <file baseinstalldir="/" name="docs/RELEASE_NOTES" role="doc" />
+    <file baseinstalldir="/" name="docs/TODO" role="doc" />
+    <file baseinstalldir="/" name="examples/configs/test.conf" role="doc" />
+    <file baseinstalldir="/" name="examples/index.php" role="doc" />
+    <file baseinstalldir="/" name="examples/templates/footer.tpl" role="doc" />
+    <file baseinstalldir="/" name="examples/templates/header.tpl" role="doc" />
+    <file baseinstalldir="/" name="examples/templates/index.tpl" role="doc" />
+    <file baseinstalldir="/" name="tests/config.php" role="test" />
+    <file baseinstalldir="/" name="tests/configs/globals_double_quotes.conf" role="test" />
+    <file baseinstalldir="/" name="tests/configs/globals_single_quotes.conf" role="test" />
+    <file baseinstalldir="/" name="tests/README" role="test" />
+    <file baseinstalldir="/" name="tests/smarty_unit_test.php" role="test" />
+    <file baseinstalldir="/" name="tests/smarty_unit_test_gui.php" role="test" />
+    <file baseinstalldir="/" name="tests/templates/assign_var.tpl" role="test" />
+    <file baseinstalldir="/" name="tests/templates/constant.tpl" role="test" />
+    <file baseinstalldir="/" name="tests/templates/index.tpl" role="test" />
+    <file baseinstalldir="/" name="tests/templates/parse_math.tpl" role="test" />
+    <file baseinstalldir="/" name="tests/templates/parse_obj_meth.tpl" role="test" />
+    <file baseinstalldir="/" name="tests/test_cases.php" role="test" />
+  </dir>
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.0.0</min>
+    <max>6.0.0</max>
+   </php>
+   <pearinstaller>
+    <min>1.4.0a1</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog />
+</package>
